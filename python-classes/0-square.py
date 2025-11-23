@@ -22,7 +22,7 @@ class Square:
             size (int): The size (side length) of the square.
                         It is stored as a private attribute '__size'.
         """
-        # __size is a private attribute achieved through name mangling in Python.
-        # This allows the class builder to control access and validation
-        # in future implementations.
+        # The '__size' attribute is private (via name mangling).
+        # This mechanism allows the class builder to control access
+        # and value validation in future implementations.
         self.__size = size
