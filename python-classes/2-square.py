@@ -34,3 +34,11 @@ class Square:
     def area(self):
         """
         Computes and returns the current area of the square.
+
+        The area is calculated as size * size.
+
+        Returns:
+            int: The area of the square.
+        """
+        # Calculate area using the private instance attribute __size
+        return self.__size ** 2
